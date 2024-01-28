@@ -14,14 +14,7 @@ struct Mass {
 
     vec3 start_position;
     vec3 position;
-
-    // explicit Verlet integration
-
     vec3 last_position;
-
-    // explicit Euler integration
-
-    vec3 velocity;
     vec3 forces;
 };
 
